@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dragAndDropContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    border: 1px solid;
+}
+
+.dragAndDropDiv{
+    display: flex;
+}
+
+.taskStatusContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+}
+
+.taskStatusContainer:nth-child(even){
+    background-color: rgb(233, 233, 233);
+}
+
+.status{
+    background-color: gray;
+    color: white;
+    padding: 6px 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.addTodoList{
+    width: calc(100% - 16px);
+    margin: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+    color: white;
+}
+
+.addTodoList:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+.listItem{
+    width: calc(100% - 16px);
+    margin: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: white !important;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.listItem:hover{
+    background-color: rgb(226, 226, 226) !important;
+}

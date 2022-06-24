@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Drag and Drop</title>
+    </head>
+
+    <body>
+        <div class="dragAndDropContainer">
+            <div class="dragAndDropDiv">
+                <div class="taskStatusContainer">
+                    <div class="status">
+                        <p>Todo List</p>
+                    </div>
+                    <button class="addTodoList">
+                        <span>Add</span>
+                        <span>+</span>
+                    </button>
+                    <div class="listItem todo" draggable="true">
+                        <span>buy pizza</span>
+                        <span>x</span>
+                    </div>
+                    <div class="listItem todo" draggable="true">
+                        <span>buy book</span>
+                        <span>x</span>
+                    </div>
+                    <div class="listItem todo" draggable="true">
+                        <span>buy box</span>
+                        <span>x</span>
+                    </div>
+                    <div class="listItem todo" draggable="true">
+                        <span>buy fruit</span>
+                        <span>x</span>
+                    </div>
+                    <div class="listItem todo" draggable="true">
+                        <span>buy drinks</span>
+                        <span>x</span>
+                    </div>
+                </div>
+                <div class="taskStatusContainer">
+                    <div class="status">
+                        <p>Pending</p>
+                    </div>
+                </div>
+                <div class="taskStatusContainer">
+                    <div class="status">
+                        <p>In Progress</p>
+                    </div>
+                </div>
+                <div class="taskStatusContainer">
+                    <div class="status">
+                        <p>Completed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
